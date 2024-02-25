@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-map2Right = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map2-right@umd/browser.js' )
+map2Right = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map2-right@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var map2Right = require( 'path/to/vendor/umd/utils-map2-right/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-map2-right@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-map2-right@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
