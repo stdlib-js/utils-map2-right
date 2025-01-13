@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-18)
+## Unreleased (2025-01-13)
 
 <section class="commits">
 
@@ -43,6 +43,52 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.2.1 (2024-02-25)
 
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.2.0">
+
+## 0.2.0 (2024-02-15)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`dea49e0`](https://github.com/stdlib-js/stdlib/commit/dea49e03ab5571233e3da26835a6a6d3256d5737) - **docs:** use single quotes in require calls instead of backticks _(by Philipp Burckhardt)_
+-   [`cacca61`](https://github.com/stdlib-js/stdlib/commit/cacca61bc884c5c1805716236733cf378d0ce955) - **docs:** update links _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
+## 0.1.0 (2023-09-24)
+
 <section class="features">
 
 ### Features
@@ -58,15 +104,13 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ### BREAKING CHANGES
 
--   [`c1eaf9b`](https://github.com/stdlib-js/stdlib/commit/c1eaf9b48f73112af77d774084caf5a27e2d47e9): update callback signature
--   [`c1eaf9b`](https://github.com/stdlib-js/stdlib/commit/c1eaf9b48f73112af77d774084caf5a27e2d47e9): consolidate array arguments into a single argument 
+-   [`c1eaf9b`](https://github.com/stdlib-js/stdlib/commit/c1eaf9b48f73112af77d774084caf5a27e2d47e9): consolidate array arguments into a single argument
 
     -   To migrate, users should access the input arrays via the fourth
-    argument, where the first element is the first input array and the
-    second element is the second input array.
+        argument, where the first element is the first input array and the
+        second element is the second input array.
 
--   [`ace728f`](https://github.com/stdlib-js/stdlib/commit/ace728f330033182c28199dc9e13d75eda18cfe0): update minimum TypeScript version
--   [`ace728f`](https://github.com/stdlib-js/stdlib/commit/ace728f330033182c28199dc9e13d75eda18cfe0): update minimum TypeScript version to 4.1 
+-   [`ace728f`](https://github.com/stdlib-js/stdlib/commit/ace728f330033182c28199dc9e13d75eda18cfe0): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -80,8 +124,6 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
--   [`dea49e0`](https://github.com/stdlib-js/stdlib/commit/dea49e03ab5571233e3da26835a6a6d3256d5737) - **docs:** use single quotes in require calls instead of backticks _(by Philipp Burckhardt)_
--   [`cacca61`](https://github.com/stdlib-js/stdlib/commit/cacca61bc884c5c1805716236733cf378d0ce955) - **docs:** update links _(by Athan Reines)_
 -   [`c1eaf9b`](https://github.com/stdlib-js/stdlib/commit/c1eaf9b48f73112af77d774084caf5a27e2d47e9) - **feat:** update callback signature _(by Athan Reines)_
 -   [`ace728f`](https://github.com/stdlib-js/stdlib/commit/ace728f330033182c28199dc9e13d75eda18cfe0) - **feat:** update minimum TypeScript version _(by Philipp Burckhardt)_
 
@@ -103,6 +145,16 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.1">
+
+## 0.0.1 (2022-02-16)
+
+No changes reported for this release.
 
 </section>
 
