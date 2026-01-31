@@ -81,7 +81,7 @@ Applies a function to elements in two input arrays while iterating from right to
 
 ```javascript
 var naryFunction = require( '@stdlib/utils-nary-function' );
-var add = require( '@stdlib/math-base-ops-add' );
+var add = require( '@stdlib/number-float64-base-add' );
 
 var x = [ 1, 2, 3, 4, 5, 6 ];
 var y = [ 1, 1, 1, 1, 1, 1 ];
@@ -94,7 +94,7 @@ The function accepts both array-like objects and [`ndarray`][@stdlib/ndarray/cto
 
 ```javascript
 var naryFunction = require( '@stdlib/utils-nary-function' );
-var add = require( '@stdlib/math-base-ops-add' );
+var add = require( '@stdlib/number-float64-base-add' );
 var array = require( '@stdlib/ndarray-array' );
 
 var opts = {
@@ -122,7 +122,7 @@ To set the `this` context when invoking the input function, provide a `thisArg`.
 <!-- eslint-disable no-invalid-this -->
 
 ```javascript
-var add = require( '@stdlib/math-base-ops-add' );
+var add = require( '@stdlib/number-float64-base-add' );
 
 function fcn( v1, v2 ) {
     this.count += 1;
@@ -151,7 +151,7 @@ Applies a function to elements in two input arrays while iterating from right to
 
 ```javascript
 var naryFunction = require( '@stdlib/utils-nary-function' );
-var add = require( '@stdlib/math-base-ops-add' );
+var add = require( '@stdlib/number-float64-base-add' );
 
 var x = [ 1, 2, 3, 4, 5, 6 ];
 var y = [ 1, 1, 1, 1, 1, 1 ];
@@ -167,7 +167,7 @@ The method accepts both array-like objects and [`ndarray`][@stdlib/ndarray/ctor]
 
 ```javascript
 var naryFunction = require( '@stdlib/utils-nary-function' );
-var add = require( '@stdlib/math-base-ops-add' );
+var add = require( '@stdlib/number-float64-base-add' );
 var array = require( '@stdlib/ndarray-array' );
 
 var opts = {
@@ -190,7 +190,7 @@ If input and output arrays are [`ndarray`][@stdlib/ndarray/ctor]-like objects, t
 
 ```javascript
 var naryFunction = require( '@stdlib/utils-nary-function' );
-var add = require( '@stdlib/math-base-ops-add' );
+var add = require( '@stdlib/number-float64-base-add' );
 var array = require( '@stdlib/ndarray-array' );
 
 var opts = {
@@ -278,7 +278,7 @@ The applied function is provided the same arguments as with [`map2Right`](#fcn-m
 var filledarrayBy = require( '@stdlib/array-filled-by' );
 var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
 var naryFunction = require( '@stdlib/utils-nary-function' );
-var add = require( '@stdlib/math-base-ops-add' );
+var add = require( '@stdlib/number-float64-base-add' );
 var array = require( '@stdlib/ndarray-array' );
 var map2Right = require( '@stdlib/utils-map2-right' );
 
@@ -364,7 +364,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -390,8 +390,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
